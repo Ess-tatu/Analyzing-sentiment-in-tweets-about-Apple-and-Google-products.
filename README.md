@@ -102,12 +102,7 @@ The following preprocessing techniques are applied to the raw tweet data:
   
 2. Confusion matrices plotted for each model
 
-   ![image](https://github.com/user-attachments/assets/ab8c361e-f1ad-4307-ad4f-27d6c34191a7)
-   ![image](https://github.com/user-attachments/assets/0194091d-c332-4b52-9412-31bbe458aab2)
-   ![image](https://github.com/user-attachments/assets/fe6e92a0-bf60-4be7-aa38-997a5c40ddfb)
-
-  
-4. Cross-validation used (5-fold)
+ ![image](https://github.com/user-attachments/assets/85114649-b7e0-4791-93a9-d0477bf58c01)
 
 
 ### Model Performance (Mean F1-Score)
