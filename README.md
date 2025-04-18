@@ -95,9 +95,14 @@ The following preprocessing techniques are applied to the raw tweet data:
 ---
 ## Evaluation Metrics 
 
-- Classification reports generated for each model
-- Confusion matrices plotted for each model
-- Cross-validation used (5-fold)
+1. Classification reports generated for each model
+
+![image](https://github.com/user-attachments/assets/b546aac9-9dfb-4b42-a7f6-3e2824bf693b)
+
+  
+2. Confusion matrices plotted for each model
+  
+3. Cross-validation used (5-fold)
 
 
 ### Model Performance (Mean F1-Score)
