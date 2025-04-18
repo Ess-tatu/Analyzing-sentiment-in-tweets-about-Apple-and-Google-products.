@@ -8,7 +8,7 @@ This repository contains a sentiment analysis project focused on tweets mentioni
 
 ## Business Understanding
 
-This project applies Natural Language Processing (NLP) and machine learning techniques to analyze the sentiment of tweets related to Apple and Google products. By classifying user tweets as **Positive**, **Negative**, or **Neutral**, in order to provide insights into how these users feel about the tech giants' products.
+This project applies Natural Language Processing (NLP) and machine learning techniques to analyze the sentiment of tweets related to Apple and Google products. By classifying user tweets as **Positive**, **Negative**, or **Neutral**, this project provides insights into how these users feel about the tech giants' products.
 
 ---
 
@@ -78,19 +78,19 @@ The following preprocessing techniques are applied to the raw tweet data:
 
 - Achieved an accuracy of approximately 70%
 - Performed best on neutral tweets
-- Efficient and interpretable, with hyperparameter tuning using GridSearchCV
+- Was efficient and interpretable, with hyperparameter tuning using GridSearchCV
 
 ### Random Forest Classifier
 
-- Achieved similar accuracy (~70%) but showed weaker performance on minority classes.
-- While more interpretable, it had weaker recall on negative sentiment classification.
-- Offered feature importance insights and better handling of non-linear relationships
+- Achieved similar accuracy (~70%) but showed weaker performance in minority classes.
+- While more interpretable, it demonstrated weaker recall in negative sentiment classification.
+- It provided feature importance insights and better handling of non-linear relationships
 
 ### Neural Network
 
 - Achieved a slightly lower accuracy of 68%
 - Tuned using various hyperparameters (layers, dropout, optimizers)
-- Demonstrated flexibility and potential for further improvement
+- It demonstrated flexibility and potential for further improvement
 
 ---
 ## Evaluation Metrics 
@@ -108,7 +108,7 @@ The following preprocessing techniques are applied to the raw tweet data:
 | Random Forest       | 0.642    |
 | Neural Network      | 0.651    |
 
-Due to class imbalance, F1-score was emphasized as the primary evaluation metric.
+Due to class imbalance, F1-Score was emphasized as the primary evaluation metric.
 
 ![Models](https://github.com/user-attachments/assets/87277851-f5d2-4577-9b80-8ad44d5c1de0)
 
@@ -126,13 +126,20 @@ Due to class imbalance, F1-score was emphasized as the primary evaluation metric
 ## Recommendations
 
 1. **Deploy the Model as a Real-Time Monitoring Tool**
-Host the trained model in a cloud environment and integrate it with Twitter’s API to continuously collect and analyze tweets. This allows Apple and Google to track public sentiment in real time.
+   
+- Host the trained model in a cloud environment and integrate it with Twitter’s API to continuously collect and analyze tweets. This allows Apple and Google to track public sentiment in real time.
+  
 2. **Use Sentiment Trends to Inform Product Strategy**
-Regularly analyze sentiment data to identify recurring complaints or praise. This can guide product development teams on areas of improvement or features that users love.
+   
+- Regularly analyze sentiment data to identify recurring complaints or praise. This can guide product development teams on areas of improvement or features that users love.
+  
 3. **Enhance the Model with More Data and Context**
-Continuously retrain the model with new tweets and expand to include emojis, hashtags, and user metadata to capture richer sentiment signals.
+   
+- Continuously retrain the model with new tweets and expand to include emojis, hashtags, and user metadata to capture richer sentiment signals.
+  
 4. **Integrate with Customer Support and PR Teams**
-Provide alerts for sudden spikes in negative sentiment so support or communications teams can proactively respond and manage brand reputation.
+   
+- Provide alerts for sudden spikes in negative sentiment so support or communications teams can proactively respond and manage brand reputation.
 
 ---
 
@@ -147,4 +154,4 @@ This project was collaboratively developed by the following team members:
 - Sylvia  
 - Job
 
-Overall, this work bridges technical implementation with business impact, showcasong the practical value of sentiment analysis.
+Overall, this work bridges technical implementation with business impact, showcasing the practical value of sentiment analysis.
