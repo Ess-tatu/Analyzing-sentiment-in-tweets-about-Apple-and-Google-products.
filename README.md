@@ -58,6 +58,8 @@ Sentiment labels are encoded as follows:
 - Neutral = `0`
 - Negative = `-1`
 
+![image](https://github.com/user-attachments/assets/24afc217-7f21-4a06-87c7-d1b9e399f20f)
+
 ---
 
 ## Data Preprocessing
